@@ -6,8 +6,8 @@ RUN apk add --update --no-cache socat \
 RUN addgroup -g 1001 -S appgroup && \
     adduser -u 1001 -S appuser -G appgroup
 
-ARG DEF_REMOTE_PORT=80
-ARG DEF_LOCAL_PORT=80
+ARG DEF_REMOTE_PORT=8000
+ARG DEF_LOCAL_PORT=8000
 
 ENV REMOTE_PORT=$DEF_REMOTE_PORT
 ENV LOCAL_PORT=$DEF_LOCAL_PORT
