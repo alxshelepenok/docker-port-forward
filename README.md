@@ -5,7 +5,7 @@ This image uses socat to forward network traffic as defined by the environment v
 ## Quickstart
 
 ```bash
-$ docker run -e REMOTE_HOST=<remote_host> -e REMOTE_PORT=<remote_port> -e LOCAL_PORT=<local_port> -p <exposed_local_port>:<local_port> waterscape/port-forward:latest
+$ docker run -e REMOTE_HOST=<remote_host> -e REMOTE_PORT=<remote_port> -e LOCAL_PORT=<local_port> -p <exposed_local_port>:<local_port> alxshelepenok/port-forward:latest
 ```
 
 ## Building
